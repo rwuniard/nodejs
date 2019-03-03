@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwuniard/nodejs.git"
+  },
+  "author": "Ronson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwuniard/nodejs/issues"
+  },
+  "homepage": "https://github.com/rwuniard/nodejs#readme"
+}
